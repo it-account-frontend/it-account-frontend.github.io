@@ -1,0 +1,21 @@
+ @mixin flex {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ @mixin flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin flex2 {
+    display: flex;
+    justify-content: space-between;
+} 
+ @mixin box ($w, $h,) {
+     width: $w;
+     height: $h;    
+ } 
+@mixin size {
+background-size: 100% 100%;
+}

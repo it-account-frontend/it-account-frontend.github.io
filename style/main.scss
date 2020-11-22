@@ -1,0 +1,839 @@
+@import 'base/base';
+@import 'base/mixin';
+.container{
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    @include flex;
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(./img/Bitmap1.png);
+    @include size;
+    background-color: black;
+    opacity: 1;
+    @include flex;
+    padding-top: 46px;
+    .one{
+        width: 904px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .dreamshare{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+
+        }
+        .login-sing{
+           display: flex;
+           align-items: center;
+           .login{              
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+            margin-right: 19px;
+           }
+           .sing{
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 17px;
+            color: #FFFFFF;
+           border: 2px solid white;
+           border-radius: 15px;
+            padding: 10px;
+          
+           }
+        }
+    }
+
+    .dreamshare1{
+        display: none;
+    }
+    .share{
+        height: 126px;
+        width: 470px;
+        margin-top: 153px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 63px;
+        text-align: center;
+        color: #FFFFFF;    
+    }
+    .and{
+        height: 25px;
+        width: 396px;
+        margin-top: 28px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 23px;
+        line-height: 24px;
+        color: #F7F3F2;
+        opacity: 0.8; 
+    }
+    .find{
+        width: 255px;
+        height: 40px;
+        margin-top: 33px;
+        background-color: rgba(255, 78, 80, 1);
+        border-radius: 20px;
+        @include flex1;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;   
+    }
+}
+.how{
+    width: 342px;
+    height: 32px;
+    margin: 89px 0px 35px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    @include flex1;
+    color: #444444;
+    
+}
+.section1{
+    width: 940px;
+    height: 400px;
+   @include flex2;
+    margin-bottom: 95px;
+}
+
+.picture1{
+    width: 300px;
+    height: 400px;
+     background-image: url(./img/Step1.png);
+     @include size;
+     padding-left: 25px;
+    padding-top: 219px;
+}
+.step{
+    width: 70px;
+    height: 20px;
+    background-color:  rgba(255, 78, 80, 1);
+    border-radius: 20px;
+    @include flex1;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+.sed{
+    width: 250px;
+    height: 58px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+.quisque{
+    width: 250px;
+    height: 57px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #E3E3E3;
+}
+.picture2{
+    width: 300px;
+    height: 400px;
+     background-image: url(./img/Step2.png);
+     @include size;
+     padding-left: 25px;
+     padding-top: 250px;
+}
+.morbi{
+    width: 250px;
+    height: 29px;
+    margin-top: 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #FFFFFF;   
+}
+.nulla{
+    width: 250px;
+    height: 57px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    color: #E3E3E3;
+    
+}
+.picture3{
+    width: 300px;
+    height: 400px;
+     background-image: url(./img/Step3.png);
+    @include size;
+     padding-left: 25px;
+     padding-top: 219px;
+}
+
+.section2{
+    background-image: url(./img/grid.png);
+   @include size;
+    width: 941px;
+    height: 361px;
+   @include flex;
+   justify-content: space-between;
+}
+.meet{
+    width: 491px;
+    height: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #444444;
+}
+
+.photo{
+    width: 941px;
+    height: 205px;
+    @include flex2;   
+}
+
+.partner{
+    @include flex;
+    width: 221px;
+    height: 205px;
+ }
+   .photo-img1{
+    background-image: url(./img/Avatar.png);   
+    width: 120px;
+    height: 120px;
+   }
+   .bradley{
+       font-family: Montserrat;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 14px;
+       line-height: 17px;
+       text-align: center;
+       color: #444444;
+       margin-top: 17px;   
+   }
+   .based{
+       font-family: Roboto;
+       font-style: normal;
+       font-weight: 300;
+       font-size: 14px;
+       line-height: 14px;
+       text-align: center;
+       color: #666666;
+       margin-top: 12px;
+   }
+   .photo-img2{
+        width: 120px;
+        height: 120px;
+        background-image: url(./img/Avatar1.png);
+        @include size;
+    }
+    .photo-img3{
+        width: 120px;
+        height: 120px;
+        background-image: url(./img/Avatar3.png);
+        @include size;
+       
+    }
+.photo-img4{
+    width: 120px;
+    height: 120px;
+    background-image: url(./img/Avatar4.png);
+    @include size;
+}
+.see{
+    width: 180px;
+    height: 40px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    @include flex1;
+    color: #FF4E50;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.discover{
+    width: 413px;
+    height: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #444444;
+    margin-top: 89px;   
+}
+
+.section3{
+    width: 940px;
+    height: 970px;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.drow{
+    width: 300px;
+    height: 310px;
+    @include size;
+    @include flex1;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF; 
+    text-align: center;
+}
+.drow1{
+    background-color: black;
+    background-image: url(./img/Object1.png); 
+  
+   
+}
+.drow2{
+    background-image: url(./img/Object2.png);
+   
+}
+.drow3{
+    background-image: url(./img/Object3.png);
+   
+}
+.drow4{
+    background-image: url(./img/Object4.png);
+   
+}
+.drow5{
+    background-image: url(./img/Object5.png);
+   
+}
+.drow6{
+    background-image: url(./img/Object6.png);
+   
+}
+.drow7{
+    background-image: url(./img/Object7.png);
+   
+}
+ .drow5,.drow6{
+    width: 620px; 
+ }
+ .section4{
+     width: 482px;
+     height: 158px;
+     margin-top: 80px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+ }
+.crate{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #444444;
+}
+.hi{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    color: #666666;
+    
+}
+input{
+    width: 299px;
+    height: 40px;
+}
+button{
+    width: 172px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 78, 80, 1);
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+footer{
+    width: 100%;
+    height: 224px;
+    margin-top: 100px;
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 40px;
+}
+
+.dreamshare{   
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: flex-end;
+color: #FF4E50;
+}
+.compan{
+    width: 114px;
+    height: 180px;
+}
+.company{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444; 
+}
+.about{
+    width: 77px;
+    height: 156px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+    margin-top: 10px;
+}
+.partners{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: flex-end;
+    color: #444444;
+}
+.areto{
+    width: 110px;
+    height: 43px;
+    text-align: end;
+}
+.designer{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #CCCCCC;  
+}
+.areto1{
+    width: 110px;
+    height: 24px;
+    background-image: url(./img/areto.png);
+    @include size;
+    margin-top: 7px;
+}
+
+}
+
+ @media screen and (max-width: 769px){
+    .container{
+        width: 768px;
+        header{
+            background-image: url(./img/Bitmap.png);
+
+           .one{
+                width: 668px;
+                height: 10px;
+                 .login-sing{
+                    
+                     .sing{
+                        padding: 3px;
+                      
+                    }
+                 }
+                }
+            }  
+       
+    .how{
+        width: 289px;
+        height: 27px;
+        margin: 94px 0px 35px;
+        font-size: 22px;
+        line-height: 27px;    
+    }
+    
+    .section1{
+        width: 748px;
+        height: 400px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 95px;
+    }
+    
+    .picture1{
+        width: 236px;
+         background-image: url(./img/Step1.png);
+         background-size: 100% 100%;
+         padding-left: 20px; 
+         padding-top: 205px;
+    }
+    
+    .sed{
+        width: 196px;
+        height: 58px;
+        line-height: 14px;
+    }
+    .quisque{
+        width: 196px;
+        height: 76px;
+    }
+    .picture2{
+        width: 236px;
+         background-image: url(./img/Step2.png);
+         background-size: 100% 100%;
+         padding-left: 20px; 
+         padding-top: 255px;
+    }
+    .morbi{
+        width: 196px;
+        font-size: 26px;
+    }
+    .nulla{
+        width: 196px;   
+    }
+    .picture3{
+        width: 236px;
+         background-image: url(./img/Step3.png);
+         background-size: 100% 100%;
+         padding-left: 20px; 
+         padding-top: 205px;
+    }
+
+    .section2{
+        width: 492px;
+        height: 605px;
+         background-image: none;
+       @include flex;
+    }
+    .meet{
+        width: 416px;
+        height: 27px;
+        font-size: 22px;
+        line-height: 27px;  
+    }
+    .photo{
+        width: 492px;
+        height: 464px;
+        flex-wrap: wrap;    
+    }
+    .photo2{
+        order: 2;
+    }
+    .photo3{
+        order: 1;
+    }
+    .photo4{
+        order: 3;
+    }
+    .partner{
+        @include flex;
+        width: 236px;
+        height: 205px;
+     }
+       
+     .discover{
+        width: 350px;
+        height: 27px;
+        font-size: 24px;
+        line-height: 27px;
+        margin-top: 94px;
+        text-align: center;   
+    }
+    .section3{
+        width: 748px;
+        height: 970px;
+        margin-top: 35px;
+       
+    }
+    .drow{
+        width: 236px;
+        height: 310px;
+       
+    }
+     .drow5,.drow6{
+        width: 492px; 
+     }
+     .about{
+         display: none;
+     } 
+
+ }   
+}
+
+@media screen and (max-width: 321px){
+    .container{
+        width: 320px;
+        header{
+            height: 540px;
+            background-image: url(./img/bitmap2.png);
+            padding-top: 20px;
+             
+           .one{
+                width: 153px;
+                height: 36px;
+               .login-sing{
+                width: 153px;
+                height: 36px;
+                justify-content: space-between;   
+               }
+           
+                .dreamshare{
+                    display: none;
+                }
+            }
+            .dreamshare1{
+                display: block;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+                color: #FFFFFF;
+                margin-top: 97px;
+            }
+            .share{
+                height: 74px;
+                width: 272px;
+                margin-top: 26px;
+                font-size: 30px;
+                line-height: 37px;
+                color: #FFFFFF;   
+            }
+            .and{
+                height: 49px;
+                width: 280px;
+                margin-top: 5px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 24px;
+                color: #F7F3F2; 
+                text-align: center;
+            }
+            .find{
+                width: 280px;
+                height: 40px;
+                margin-top: 33px;
+            }
+        
+        }
+       
+        .how{
+            margin: 34px 0px 15px;   
+        }
+        
+        .section1{
+            width: 300px;
+            height: 740px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-bottom: 36px;
+        }
+        
+        .picture1{
+            width: 300px;
+            height: 240px;
+            padding-left: 20px; 
+            padding-top: 64px;  
+        }
+        .sed{
+            width: 250px;
+            height: 58px;  
+        }
+        .quisque{
+            width: 250px;
+            height: 57px;
+        }
+        
+        .picture2{
+            width: 300px;
+            height: 240px;
+            padding-left: 20px; 
+            padding-top: 95px;
+        }
+        .morbi{
+            width: 250px;
+            height: 29px;
+            font-size: 26px;
+        }
+        .nulla{
+            width: 250px;
+            height: 57px;   
+        }
+        .picture3{
+            width: 300px;
+            height: 240px;
+            padding-left: 20px; 
+            padding-top: 64px;
+        }
+        .section2{
+            width: 236px;
+            height: 100%;
+           @include flex;
+        }
+        .meet{
+            width: 280px;
+            height: 54px;
+            font-size: 22px;
+            line-height: 27px;  
+        }
+        .photo{
+            width: 236px;
+            height: 868px;
+            margin-top: 14px;
+            @include flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+
+        }
+        .partner{
+            @include flex;
+            width: 236px;
+            height: 205px;
+         }
+         .see{
+            width: 280px;
+            margin-top: 36px;
+        }
+        .discover{
+            width: 280px;
+            height: 54px;
+            margin-top: 35px;   
+        }
+
+        .section3{
+            width: 300px;
+            height: 900px; 
+            
+            flex-direction: column;
+            
+        }
+        .drow{
+            width: 300px;
+            height: 120px; 
+        }
+         .drow5,.drow6{
+            width: 300px; 
+         } 
+
+         .section4{
+            width: 290px;
+            height: 192px;
+            margin-top: 35px;
+        }
+       .crate{
+           font-size: 22px;
+           line-height: 27px;
+       }
+        
+       input{
+           width: 280px;
+           
+       }
+       button{
+           width: 280px;
+           height: 40px;
+           border-radius: 20px;
+           margin-top: 10px;
+       }
+       .email{
+           display: flex;
+           flex-direction: column;
+       }
+       footer{
+           width: 320px;
+           height: 224px;
+          flex-direction: column;
+          align-items: center;
+          padding-top: 19px;
+    }
+    .compan{
+        width: 280px;
+        height: 70px;
+        text-align: center;
+        
+    }
+     
+    .about{
+        display: block;
+        width: 277px;
+        height: 52px;
+        margin-top: 1px;
+    }
+
+
+
+
+    }   
+}
